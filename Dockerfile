@@ -1,4 +1,4 @@
-FROM telegraf:1.36.3
+FROM telegraf:1.37.3
 
 RUN apt-get update && \
     apt-get install -y --no-install-recommends \
